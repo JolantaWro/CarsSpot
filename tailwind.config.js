@@ -9,7 +9,7 @@ module.exports = {
       "sm": { "min": "481px", "max": "768px" },
       "md": { "min": "769px", "max": "1024px" },
       "lg": { "min": "1025px", "max": "1199px" },
-      "xl": { "min": "1200px", "max": "1439px"  },
+      "xl": { "min": "1200px", "max": "1439px" },
       "2xl": { "min": "1440px" },
     },
     colors: {

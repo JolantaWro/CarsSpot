@@ -1,22 +1,24 @@
 import React from 'react';
 import logo from '../../assets/images/logo.svg'
 import HeaderNavigation from './HeaderNavigation';
+import HeaderMobile from './HeaderMobile';
 import Button from '../ui/button'
-import Container from '../ui/container'
 
 
 const Header = () => (
-    <header className='flex py-4 gap-x-[10px]'>
-        <div className='flex mx-auto w-[1200px] justify-between'>
-            <div className='flex items-center justify-center'>
-                <img src={logo} alt="CarsSpot logo"/> 
+    <header className='py-4 gap-x-[10px]'>
+        <div className='grid grid-cols-12 items-center mx-auto max-w-[1200px] xs:grid-cols-4 sm:grid-cols-8'>
+            <div className='flex justify-start col-span-3 md:pl-6'>
+                <img src={logo} alt="CarsSpot logo" />
             </div>
-             
-            <div className='flex items-center justify-center'>
+            <div className='flex justify-center col-span-6 xs:hidden sm:hidden'>
                 <HeaderNavigation />
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex justify-end col-span-3 xs:hidden sm:hidden md:pr-4'>
                 <Button secondary>Zadzwoń do nas</Button>
+            </div>
+            <div className='hidden xs:block xs:col-span-4 sm:block sm:col-span-8'>
+                <HeaderMobile />
             </div>
         </div>
     </header>
