@@ -25,6 +25,7 @@ module.exports = {
     },
     letterSpacing: {
       'negative-4': '-0.04em',
+      'negative-2': '-0.02em',
     },
     extend: {
       
