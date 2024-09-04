@@ -15,12 +15,16 @@ module.exports = {
     colors: {
       'cobalt': '#0147FF',
       'gray': '#F7F7F7',
-      'white': "#fff",
+      'white': '#fff',
+      'black': '#282828'
     },
     fontFamily: {
       bebas: ['Bebas Neue', 'sans-serif'],
       roboto: ['Roboto Condensed', 'sans-serif'],
       robotoFlex: ['Roboto Flex', 'sans-serif'],
+    },
+    letterSpacing: {
+      'negative-4': '-0.04em',
     },
     extend: {
       
