@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Gallery = () => (
-    <div className='pt-[220px]'>
+    <div className='pt-[300px]'>
         <div className='grid grid-cols-12 justify-start mx-auto gap-6 xs:grid-cols-4 sm:grid-cols-8 max-w-[1200px]'>
             <div className='flex flex-col justify-start col-span-12 gap-6 xs:col-span-4 sm:col-span-8'>
                 <p className='font-roboto font-normal text-[21px] leading-[32px] text-cobalt'>Prezentacja firmy</p>
