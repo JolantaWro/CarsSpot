@@ -6,46 +6,35 @@ import vans from '../../config/galleryData'
 
 const SliderGallery = () => {
     const sliderSettings = {
-        slidesToShow: 2, 
+        slidesToShow: 3, 
+        centerMode: true,
         dots: true,
+        dotsClass: "slick-dots",
         infinite: true,
         speed: 500,
         responsive: [
           {
-            breakpoint: 1440,
+            breakpoint: 1450,
             settings: {
               slidesToShow: 2,
-            },
-          },
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1, 
             },
           },
           {
             breakpoint: 768,
             settings: {
               slidesToShow: 1,
-             
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-            
+              centerMode: false
             },
           },
         ],
       };
   return (
-    <div className="pt-10 max-w-[1440px] mx-auto">
+    <div className="pt-20 pl-8 xs:px-2 sm:pl-0 md:pl-2 lg:pl-2 xl:pl-20">
       <SliderComponent settings={sliderSettings}>
         {passengerCars.map((image, index) => (
              <div
              key={image.id}
-             className="flex justify-center" 
+             className="flex pr-16 xs:pr-0 sm:pr-0 md:pr-2 lg:pr-2" 
              style={{ width: '600px', height: '446px' }} 
            >
              <img

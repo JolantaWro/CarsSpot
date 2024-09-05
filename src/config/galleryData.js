@@ -19,6 +19,16 @@ export const passengerCars = [
 		image: photo3,
         alt: 'Audi Car'
 	},
+    { 
+        id: 4, 
+        image: photo2,
+        alt: 'Black Car'
+    },
+	{
+		id: 5,
+		image: photo3,
+        alt: 'Audi Car'
+	},
 ];
 
 export const vans = [

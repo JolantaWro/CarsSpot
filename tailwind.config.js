@@ -10,7 +10,8 @@ module.exports = {
       "md": { "min": "769px", "max": "1024px" },
       "lg": { "min": "1025px", "max": "1199px" },
       "xl": { "min": "1200px", "max": "1439px" },
-      "2xl": { "min": "1440px" },
+      "2xl": { "min": "1440px", "max": "1919px" },
+      "3xl": { "min": "1920px" },
     },
     colors: {
       'cobalt': '#0147FF',
