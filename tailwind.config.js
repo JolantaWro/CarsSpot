@@ -16,8 +16,9 @@ module.exports = {
     colors: {
       'cobalt': '#0147FF',
       'gray': '#F7F7F7',
-      'white': '#fff',
-      'black': '#282828'
+      'white': '#FFFFFF',
+      'black': '#282828',
+      'secondary': '#282828',
     },
     fontFamily: {
       bebas: ['Bebas Neue', 'sans-serif'],
@@ -26,6 +27,7 @@ module.exports = {
     },
     letterSpacing: {
       'negative-4': '-0.04em',
+      'negative-3': '-0.03em',
       'negative-2': '-0.02em',
     },
     extend: {
