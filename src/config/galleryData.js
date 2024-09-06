@@ -34,14 +34,27 @@ export const passengerCars = [
 export const vans = [
     {
         id: 1, 
-        image: photo1
+        image: photo1,
+        alt: 'Red Car'
     },
 	{ 
         id: 2, 
-        image: photo1
+        image: photo1,
+        alt: 'Red Car'
     },
 	{
 		id: 3,
-		image: photo3
+		image: photo1,
+        alt: 'Red Car'
+	},
+    { 
+        id: 4, 
+        image: photo1,
+        alt: 'Red Car'
+    },
+	{
+		id: 5,
+		image: photo1,
+        alt: 'Red Car'
 	},
 ];
