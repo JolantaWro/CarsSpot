@@ -17,7 +17,8 @@ module.exports = {
       'cobalt': '#0147FF',
       'gray': '#F7F7F7',
       'white': '#fff',
-      'black': '#282828'
+      'black': '#282828',
+      'secondary': '#282828',
     },
     fontFamily: {
       bebas: ['Bebas Neue', 'sans-serif'],
