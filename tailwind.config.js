@@ -18,7 +18,6 @@ module.exports = {
       'gray': '#F7F7F7',
       'white': '#FFFFFF',
       'black': '#282828',
-      'secondary': '#282828',
     },
     fontFamily: {
       bebas: ['Bebas Neue', 'sans-serif'],
