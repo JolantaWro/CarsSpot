@@ -1,4 +1,4 @@
-export const servicesData = [
+export const questionsData = [
     {
         id: 1, 
         title: 'Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla commodo.',

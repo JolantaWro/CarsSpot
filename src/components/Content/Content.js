@@ -1,13 +1,13 @@
 import HeroSection from "./HeroSection";
 import Gallery from "./Gallery";
-import Services from "./Services";
+import PopularQuestions from "./PopularQuestions";
 
 
 const Content = () => (
     <main>
         <HeroSection />
         <Gallery />
-        <Services />
+        <PopularQuestions />
     </main>
 );
 
