@@ -10,13 +10,13 @@ const HeroSection = () => (
                 <h1 className='font-bebas font-normal text-[76px] uppercase leading-[83px] tracking-negative-4 xs:text-4xl sm:text-4xl md:text-5xl' >Sprzedajemy samochody <br /> z europy</h1>
                 <p className='font-roboto text-base font-normal leading-6'>Kup komfortowy pojazd, aby każda podróż <br />była wyjątkowym przeżyciem.</p>
                 <div className='flex gap-x-6'>
-                    <Button secondary extraStyles='h-[60px] xs:py-2'>Zobacz zdjęcia</Button>
-                    <Button extraStyles='h-[60px] py-2' >Zadzwoń do nas</Button>
+                    <Button extraStyles='h-[60px] xs:py-2' href="#gallery">Zobacz zdjęcia</Button>
+                    <Button secondary extraStyles='h-[60px] py-2' >Zadzwoń do nas</Button>
                 </div>
             </div>
         </div>
         <div className="absolute -bottom-36 right-0 z-0">
-            <img src={mainPhoto} alt="Hero image showcasing cars" className="object-cover max-w-full h-auto"/>
+            <img src={mainPhoto} alt="Three black cars" className="object-cover max-w-full h-auto"/>
         </div>
     </div>
 

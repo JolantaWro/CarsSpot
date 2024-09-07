@@ -15,7 +15,7 @@ const Header = () => (
                 <HeaderNavigation />
             </div>
             <div className='flex justify-end col-span-3 xs:hidden sm:hidden md:pr-4'>
-                <Button secondary>Zadzwoń do nas</Button>
+                <Button>Zadzwoń do nas</Button>
             </div>
             <div className='hidden xs:block xs:col-span-4 sm:block sm:col-span-8'>
                 <HeaderMobile />
