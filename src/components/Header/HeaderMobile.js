@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from "react-router-hash-link";
+import Button from '../ui/button'
 
 const HeaderMobile = () => {
     return (
@@ -16,9 +17,10 @@ const HeaderMobile = () => {
                     </Link>
                 </li>
                 <li className=''>
-                    <Link smooth to="#kontakt" className="font-robotoFlex text-base font-medium leading-6 transform transition-transform hover:scale-105 hover:underline hover:underline-offset-4 hover:text-cobalt">
+                    {/* <Link smooth to="#kontakt" className="font-robotoFlex text-base font-medium leading-6 transform transition-transform hover:scale-105 hover:underline hover:underline-offset-4 hover:text-cobalt">
                         Zadzwoń do nas
-                    </Link>
+                    </Link> */}
+                    <Button>Zadzwoń do nas</Button>
                 </li>
             </ul>
         </nav>

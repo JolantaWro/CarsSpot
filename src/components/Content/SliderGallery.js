@@ -21,13 +21,20 @@ const SliderGallery = ({ data }) => {
             breakpoint: 768,
             settings: {
               slidesToShow: 1,
+              centerMode: true
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
               centerMode: false
             },
           },
         ],
       };
   return (
-    <div className="pt-20 pl-8 xs:px-2 sm:pl-0 md:pl-2 lg:pl-2 xl:pl-20">
+    <div className="pt-16 pl-8 xs:px-2 sm:pl-0 md:pl-2 lg:pl-2 xl:pl-20">
       <SliderComponent settings={sliderSettings}>
         {data.map((image, index) => (
              <div
