@@ -15,7 +15,7 @@ const HeroSection = () => (
                 </div>
             </div>
         </div>
-        <div className="absolute -bottom-36 right-0 z-0">
+        <div className="absolute -bottom-[95px] right-0 z-0">
             <img src={mainPhoto} alt="Three black cars" className="object-cover max-w-full h-auto"/>
         </div>
     </div>
