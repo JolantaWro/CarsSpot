@@ -1,11 +1,12 @@
-import './App.css';
 import Header from '../src/components/Header/Header'
 import Content from '../src/components/Content/Content';
 import Footer from './components/Footer/Footer';
+import Waves from './components/ui/waves';
 
 function App() {
   return (
-    <div className='w-full h-full bg-gray'>
+    <div className='relative w-full h-full bg-gray'>
+      <Waves />
       <Header />
       <Content />
       <Footer />

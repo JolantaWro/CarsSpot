@@ -30,7 +30,6 @@ module.exports = {
       'negative-2': '-0.02em',
     },
     extend: {
-      
     },
   },
   plugins: [],
