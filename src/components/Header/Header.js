@@ -7,9 +7,9 @@ import Button from '../ui/button'
 
 const Header = () => (
     <header className='py-4 gap-x-[10px]'>
-        <div className='grid grid-cols-12 items-center mx-auto max-w-[1200px] xs:grid-cols-4 sm:grid-cols-8'>
+        <div className='grid grid-cols-12 mx-auto items-center max-w-[1200px] xs:grid-cols-4 sm:grid-cols-8'>
             <div className='flex justify-start col-span-3 md:pl-6'>
-                <img src={logo} alt="CarsSpot logo" />
+                <img src={logo} alt="CarsSpot logo company" />
             </div>
             <div className='flex justify-center col-span-6 xs:hidden sm:hidden'>
                 <HeaderNavigation />
