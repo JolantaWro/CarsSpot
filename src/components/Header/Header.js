@@ -9,10 +9,10 @@ import Container from '../ui/container'
 const Header = () => (
     <header className='py-4 gap-x-[10px]'>
         <Container>
-            <div className='flex justify-start col-span-3 md:pl-6'>
+            <div className='flex justify-start col-span-3 md:pl-6 xs:pl-2'>
                 <img src={logo} alt="CarsSpot logo company" />
             </div>
-            <div className='flex justify-center col-span-6 xs:achidden sm:hidden'>
+            <div className='flex justify-center col-span-6 xs:hidden sm:hidden'>
                 <HeaderNavigation />
             </div>
             <div className='flex justify-end col-span-3 xs:hidden sm:hidden md:pr-4'>
