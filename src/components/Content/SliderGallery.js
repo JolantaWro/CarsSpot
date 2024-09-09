@@ -39,7 +39,7 @@ const SliderGallery = ({ data }) => {
         {data.map((image, index) => (
              <div
              key={image.id}
-             className="flex pr-16 xs:pr-0 sm:pr-0 md:pr-2 lg:pr-2 pb-12" 
+             className="flex pr-16 xs:pr-0 sm:pr-0 md:pr-2 lg:pr-2 pb-12 focus:outline-none" 
              style={{ width: '600px', height: '446px' }} 
            >
              <img

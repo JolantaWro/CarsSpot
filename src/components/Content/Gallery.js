@@ -18,13 +18,13 @@ const Gallery = () => {
       };
 
     return (
-    <div id="gallery" className='pt-[285px] pb-28 xs:px-2 sm:px-2'>
+    <section id="gallery" className='pt-[285px] pb-28 xs:px-2 sm:px-2'>
         <Container className='justify-start max-w-[1264px] 2xl:w-full'>
             <div className='flex flex-col justify-start col-span-12 xs:col-span-4 sm:col-span-8 md:px-2'>
-                <p className='font-roboto font-normal text-[21px] leading-[32px] text-cobalt'>Prezentacja firmy</p>
-                <h1 className='font-bebas font-normal text-[40px] uppercase leading-[48px]'>Zobacz naszą galerię zdjęć</h1>
+                <h1 className='font-roboto font-normal text-[21px] leading-[32px] text-cobalt'>Prezentacja firmy</h1>
+                <h2 className='font-bebas font-normal text-[40px] uppercase leading-[48px]'>Zobacz naszą galerię zdjęć</h2>
                 <div className='flex gap-x-12 xs:gap-4 xs:justify-start pt-6'>
-                    <p 
+                    <button 
                         className={`text-black font-roboto text-base font-normal leading-6 tracking-negative-2 cursor-pointer ${
                             activeCategory === 'passengerCars'
                             ? 'text-cobalt font-semibold underline underline-offset-4'
@@ -33,8 +33,8 @@ const Gallery = () => {
                         onClick={showPassengerCars}
                         >
                         Samochody osobowe
-                    </p>
-                    <p 
+                    </button>
+                    <button 
                         className={`text-black font-roboto text-base font-normal leading-6 tracking-negative-2 cursor-pointer ${
                             activeCategory === 'vans'
                             ? 'text-cobalt font-semibold underline underline-offset-4'
@@ -43,14 +43,14 @@ const Gallery = () => {
                         onClick={showVans}
                         >
                         Samochody dostawcze
-                        </p>
+                        </button>
                 </div>
             </div>
         </Container>
         <div>
             <SliderGallery data={galleryData} />
         </div>
-    </div>
+    </section>
 )};
 
 export default Gallery;

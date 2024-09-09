@@ -9,7 +9,7 @@
 
 ## Features
 - **React-based SPA (Single Page Application):** Ensures fast and smooth navigation.
-- **TailwindCSS:** For rapid UI development with a mobile-first, highly responsive design.
+- **TailwindCSS:** For rapid UI development with a highly responsive design.
 - **Responsive Design:** Ensures a seamless experience across all devices—desktop, tablet, and mobile.
 - **Car Galleries:** Users can browse galleries of personal and delivery vehicles.
 - **Interactive UI Elements:** Call-to-action buttons such as "Zobacz zdjęcia" ("View Gallery") and "Zadzwoń do nas" ("Call Us") to enhance user engagement.
