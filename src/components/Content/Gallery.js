@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SliderGallery from './SliderGallery';
 import { passengerCars, vans } from '../../config/galleryData'
+import Container from '../ui/container';
 
 const Gallery = () => {
     const [galleryData, setGalleryData] = useState(passengerCars);
@@ -18,7 +19,7 @@ const Gallery = () => {
 
     return (
     <div id="gallery" className='pt-[285px] pb-28 xs:px-2 sm:px-2'>
-        <div className='grid grid-cols-12 justify-start mx-auto xs:grid-cols-4 sm:grid-cols-8 max-w-[1264px] 2xl:w-full'>
+        <Container className='justify-start max-w-[1264px] 2xl:w-full'>
             <div className='flex flex-col justify-start col-span-12 xs:col-span-4 sm:col-span-8 md:px-2'>
                 <p className='font-roboto font-normal text-[21px] leading-[32px] text-cobalt'>Prezentacja firmy</p>
                 <h1 className='font-bebas font-normal text-[40px] uppercase leading-[48px]'>Zobacz naszą galerię zdjęć</h1>
@@ -45,7 +46,7 @@ const Gallery = () => {
                         </p>
                 </div>
             </div>
-        </div>
+        </Container>
         <div>
             <SliderGallery data={galleryData} />
         </div>
